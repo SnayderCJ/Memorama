@@ -1,0 +1,70 @@
+@font-face{
+    font-family: 'Fuente2';
+    src: url(/FuentesGamer/space_ranger/spacerangerexpandital.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: url(/FondosGamers/Fondo3.jpg);
+    background-size: cover;
+    padding: auto;
+    margin: auto;
+    font-family: 'Fuente2';
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+}
+
+.cartas {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.cartas div {
+    position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cartas div:hover{
+    transform: scale(1.1);
+}
+
+img {
+  width: 2.5in;
+  height: 3.5in;
+  margin-right: 10px;
+  background-size: cover;
+  box-shadow: 0 0 10px black;
+}
+
+span {
+    font-size: 20px;
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+

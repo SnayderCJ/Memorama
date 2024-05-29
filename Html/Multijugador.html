@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title> Multijugador</title>
+    <link rel="stylesheet" href="/Css/Multijugador.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/Iconos/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="contador">
+      <i class="fas fa-clock"></i> <span id="tiempo">1:00</span>
+      <div id="barraProgreso"></div>
+    </div>
+    <div id="contenedor">
+      <div id="juego"></div>
+      <div class="informacion">
+        <div id="nombreJugador"></div> <br>
+        <div id="estadisticas">Movimientos: 0</div>
+        <div id="puntuacion">Puntuacion: 0</div>
+        <br />
+        <br />
+        <div id="nombreJugador2"></div> <br>
+        <div id="estadisticas2">Movimientos: 0</div>
+        <div id="puntuacion2">Puntuacion: 0</div>
+        <br> <br> <br>
+
+        <div id="turno">
+        </div>
+      </div>
+    </div>
+    <script src="/JavaScript/Multijugador.js"></script>
+
+    <audio id="sonidoError" src="/EfectosDeSonido/error2.mp3"></audio>
+    <audio id="sonidoClic" src="/EfectosDeSonido/click2.mp3"></audio>
+    <audio id="sonidoAcierto" src="/EfectosDeSonido/validacion2.mp3"></audio>
+    <script src="/JavaScript/sonido.js"></script>
+    
+    <footer> Todos los Derechos Reservados © - Snazzy D's </footer>
+  </body>
+</html>

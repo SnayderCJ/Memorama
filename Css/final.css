@@ -1,0 +1,114 @@
+@font-face{
+    font-family: 'Fuente2';
+    src: url(/FuentesGamer/space_ranger/spacerangerexpandital.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* a{
+    text-decoration: none;
+}
+
+body {
+    font-family: 'fuente2';
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(/FondosGamers/gif4.gif);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+/* .contenedor-principal {
+    position: relative;
+    background-image: url(/FondosGamers/gif1.gif);
+    background-size: cover;
+    opacity:75%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    padding: 150px;
+    text-align: center;
+    width: 600px;
+} */
+
+
+.titulo{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 0 100px;
+
+}
+.contenedor-principal .titulo h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+@keyframes cambioColor {
+    0% {
+        border-color: rgb(255, 0, 0); 
+    }
+    25% {
+        border-color: rgb(0, 255, 0); 
+    }
+    50% {
+        border-color: rgb(0, 0, 255); 
+    }
+    75% {
+        border-color: rgb(255, 255, 0); 
+    }
+    100% {
+        border-color: rgb(255, 0, 0); 
+    }
+}
+
+.contenedor-nuevo-juego{
+    background-color: rgba(0, 0, 0, 0.48);
+    border: 5px solid;
+    animation: cambioColor 5s infinite;
+    border-radius: 10px;
+}
+
+.contenedor-nuevo-juego h2{
+    font-size: 30px;
+    color: white;  
+}
+
+.contenedor-nuevo-juego h2:hover{
+    color: red;
+}
+ 
+.opcion-modo {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.48);
+    border: 2px solid rgba(0, 0, 0, 0.48);
+    border-radius: 10px;
+}
+
+.opcion-modo:hover {
+    color: red;
+}
+
+p {
+    color: white;
+}
+
+p:hover {
+    color: red;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
